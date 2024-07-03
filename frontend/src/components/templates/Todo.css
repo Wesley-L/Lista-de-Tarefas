@@ -1,0 +1,84 @@
+.main {
+  background-color: var(--bg-color);
+  width: var(--content-width);
+  height: 400px;
+}
+
+.content {
+  margin: 0px 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 380px;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.content .table-row {
+  background-color: #fff;
+  height: 65px;
+  margin-bottom: 10px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  border-radius: 3px;
+  justify-content: space-around;
+}
+
+.text-and-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .text,
+.content .category {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.89em;
+  /* padding: 5px 0px 0 5px; */
+  width: 260px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+}
+
+.content .category {
+  width: 30%;
+}
+
+.content .completed,
+.content .delet {
+  background-color: var(--bt-completed);
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 90px;
+  height: 25px;
+}
+
+.content .delet {
+  background-color: var(--bt-delet);
+  width: 20px;
+  padding: 3px;
+  height: 20px;
+}
+
+/* .content .table-row .text,
+.content .table-row .category {
+  flex: 0 1 70%;
+} */
+
+.content .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+}
+
+.is-completed {
+  text-decoration: line-through;
+}

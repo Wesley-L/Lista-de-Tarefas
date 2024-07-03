@@ -1,0 +1,21 @@
+:root {
+  --bg-color: #8c8989;
+  --bt-completed: #39ff95;
+  --bt-delet: #aa0000;
+  --bt-others: #001f62;
+  --main: 600px;
+  --content-width: 500px;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  margin: 40px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+

@@ -1,0 +1,47 @@
+footer.footer {
+  background-color: var(--bg-color);
+  width: var(--content-width);
+  border-radius: 0px 0px 15px 15px;
+}
+
+footer.footer .create {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer.footrer .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+footer.footer .input-create {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+footer.footer .category {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+}
+
+footer.footer .btn-subimit {
+  color: #fff;
+  background-color: var(--bt-others);
+  width: 100px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
